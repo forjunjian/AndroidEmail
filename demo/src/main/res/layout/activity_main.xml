@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="match_parent"
+        android:text="发送"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/et_test"
+        android:hint="目标邮箱地址"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="934784129@qq.com"/>
+
+    <EditText
+        android:background="#659158"
+        android:padding="8dp"
+        android:id="@+id/et_title"
+        android:layout_marginTop="8dp"
+        android:textSize="20dp"
+        android:hint="请输入title"
+        android:text="前方快报"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:hint="请输入邮件内容"
+        android:text="十万火急，请贺经理增派支援"
+        android:background="#6594"
+        android:padding="8dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:id="@+id/et_content"
+        android:lines="6"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
